@@ -1,0 +1,13 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A simple portfolio website using html, sass, js",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass --no-source-map src/sass/main.scss src/style.css -s compressed",
+    "watch": "sass --no-source-map -w src/sass/main.scss src/style.css"
+  },
+  "keywords": [],
+  "author": "Fabricio",
+  "license": "ISC"
+}
